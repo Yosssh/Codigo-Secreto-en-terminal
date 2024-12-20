@@ -56,9 +56,9 @@ def enviar_correo_con_imagen(destinatario, asunto, cuerpo, ruta_imagen):
         ruta_imagen: Ruta completa al archivo de imagen.
     """
 
-    # Datos de autenticación de tu cuenta de Gmail (recuerda usar una contraseña de aplicación)
-    gmail_user = 'autojosh3@gmail.com'
-    gmail_password = 'pvmy binf yhtd mkjr'
+    # Datos de Gmail (recomendable una contraseña de aplicación)
+    gmail_user = ''
+    gmail_password = ''
 
     # Crear el mensaje principal
     mensaje = MIMEMultipart()
